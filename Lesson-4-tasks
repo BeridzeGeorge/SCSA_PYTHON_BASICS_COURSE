@@ -102,7 +102,3 @@ while True:
     for i in range(3):
         print(f"{i+1} - Penultimate Letter - {word[-2]}")
     break
-# tEST
-print("Test for Github")
-print("test2")
-print("test2")
