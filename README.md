@@ -1,0 +1,1 @@
+#This is my SCSA academy Python Basic course home tasks.
