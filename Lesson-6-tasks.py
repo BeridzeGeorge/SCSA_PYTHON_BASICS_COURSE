@@ -10,6 +10,7 @@ for i in range(5):
         text.append(entered_text)
 print(text)
 
+print("----------------------")
 # Task №2
 """2. გვაქვს ორი ტოლი სიგრძის სია, პროგრამამ გაყოს პირველი
  სიის ელემენტები მეორე სიის ელემენტებზე შესაბამისად, 
@@ -20,4 +21,4 @@ b=[4, 5, 6, 10]
 c = []
 for i in range(len(a)):
     c.append(round(a[i]/b[i]))
-print(c)
+print(f"list a = {a} \nlist b = {b}  \n  a/b  = {c}")
