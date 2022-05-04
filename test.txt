@@ -1,1 +1,0 @@
-Test file created on remote repository and intend to get it in local repositry by Pycharm.
