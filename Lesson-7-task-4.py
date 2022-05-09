@@ -1,6 +1,6 @@
 # ---------- GIORGI BERIDZE ----------
 #Lesson 7 home tasks
-# Task №4
+#Task №4
 """შექმენით შემთხვევითი სიტყვა, რომლის სიგრძეც იქნება 2-დან 7-მდე რენდომულად.
 თუ ამ სიტყვაში აღმოჩნდება სიმბოლო 'a' ან 'e', პროგრამამ ჩაწეროს ეს სიტყვა ლისტში,
 შედეგად მივიღოთ 4 რენდომული სიტყვისგან შემდგარი ლისტი"""
@@ -13,3 +13,4 @@ while len(rand_list) < 4:
     if "a" in rand_word or "e" in rand_word:
         rand_list.append(rand_word)
 print(rand_list)
+
