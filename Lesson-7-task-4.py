@@ -13,4 +13,3 @@ while len(rand_list) < 4:
     if "a" in rand_word or "e" in rand_word:
         rand_list.append(rand_word)
 print(rand_list)
-
