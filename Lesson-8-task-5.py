@@ -19,7 +19,6 @@ while len(dic) < 10:
     # Creating dictionary with randomly generated numbers
     dic[random.randrange(20, 100)] = random.randrange(100, 200)
 
-
 def dict_to_odd_even_lists(x):
     # Splitting dictionary into lists with odd and even numbers
     for i, j in dic.items():
