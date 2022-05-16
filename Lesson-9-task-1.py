@@ -15,11 +15,11 @@ def create_dictionary(x, y):
     new_dict = {}
     for i in range(len(x)):
         new_dict[x[i]] = y[i]
-    #with open("New_txt_file.txt", 'w') as f:
-    txt_file = open("New_txt_file.txt", 'a+')
+    #Creating new txt file and appending some data in it.
+    txt_file = open("New_txt_file.txt", 'a')
     for key, value in new_dict.items():
-        txt_file.write('%s:%s\n' % (key, value))
+        txt_file.write('%s : %s \n' % (key, value))
+    #close file.
     txt_file.close()
     return txt_file
-#f.close()
 create_dictionary(list_names,list_signs)
