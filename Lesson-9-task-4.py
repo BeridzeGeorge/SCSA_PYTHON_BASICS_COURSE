@@ -15,6 +15,7 @@ a = ["giorgi", "pavle", "mamuka", "dachi", "irakli", "iago",
 
 
 def students_points(x_list):
+    # Generate random points for students and create corresponding dictionary
     dic = {}
     for i in x_list:
         dic[i] = random.randint(40, 100)
