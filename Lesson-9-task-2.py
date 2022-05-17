@@ -9,10 +9,7 @@
 import random
 
 dic = {}
-odd_key = []
-even_key = []
-odd_value = []
-even_value = []
+
 while len(dic) < 10:
     # Creating dictionary with randomly generated numbers
     dic[random.randrange(20, 100)] = random.randrange(100, 200)
@@ -23,6 +20,10 @@ for key, value in dic.items():
 
 def dict_to_odd_even_lists(x):
     # Splitting dictionary into lists with odd and even numbers
+    odd_key = []
+    even_key = []
+    odd_value = []
+    even_value = []
     for i, j in x.items():
         if i % 2 == 0:
             even_key.append(i)
